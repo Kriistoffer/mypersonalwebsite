@@ -1,19 +1,18 @@
 import React from 'react';
-import { Link } from 'react-dom';
 import NavPhoto from '../../assets/profile_pic.png';
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
 
 const Navigationbar = () => {
     return (
-        <div className="navigation-menu">
-            <div className="logo-section">
-                <Link to="/">
-                    <img src={NavPhoto} className="navphoto" alt="me" />
-                </Link>
-            </div>
-            <div className="nav-links">
-
-            </div>
-        </div>
+        <Container>
+            <Navbar expand="lg" variant="light" bg="light">
+                <Container>
+                    <Navbar.Brand href="#">Navbar</Navbar.Brand>
+                </Container>
+            </Navbar>
+        </Container>
     )
 }
 
