@@ -1,0 +1,41 @@
+.photo-container {
+    width: 1%;
+    border: 2px solid magenta;
+}
+
+.navbar-photo {
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+    margin-left: 20%;
+}
+
+.navbar-container {
+    margin-left: 2%;
+    margin-top: 0%;
+    text-align: center;
+}
+
+.nav-link {
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+.nav-link:after {
+    content: "";
+    position: absolute;
+    background-color: rgb(166, 218, 166);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.nav-icons {
+    margin-right: 2%;
+}
