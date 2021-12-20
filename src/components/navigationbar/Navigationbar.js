@@ -34,6 +34,7 @@ const Navigationbar = () => {
                 </Nav.Link>
                 <BsLinkedin className="nav-icons" size="2.5em" />
                 <BsGithub className="nav-icons" size="2.5em" />
+                {/* Lägg till "kugghjul" för användarinställningar som olika färglägen, språk, och så vidare */}
             </Container>
         </Navbar>
     )
